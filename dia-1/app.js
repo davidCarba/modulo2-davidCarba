@@ -16,7 +16,7 @@ console.log(
   `Mi nombre 
 es
 `,
-  nombre
+  nombre yb
 );
 console.log(`Mi nombre es ${nombre}`); //recomendado
 const arbol = "pino";
