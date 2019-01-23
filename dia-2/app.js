@@ -109,11 +109,25 @@ alert(message);*/
 
 //ejercicio 6 si
 
-/*let nombre = prompt("what is the official name of Javascript","");*/
+/*let nombre = prompt("what is the official name of Javascript","");
+if (value == 'ECMAScript') {
+      alert('Right!');
+    } else {
+      alert("You don't know? ECMAScript!");
+    }
+*/
+
+//ejercicio 7
 
 /*let numero = prompt("Introduce numero",0);
     if (numero> 0){
-        alert(1);*/
+        alert(1);
+        } else if (numero < 0) {
+      alert(-1);
+    } else {
+      alert(0);
+    }
+*/
 
 /*let result = a+b<4 ? Bellow:*/
 
