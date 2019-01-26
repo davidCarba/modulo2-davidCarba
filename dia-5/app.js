@@ -93,7 +93,7 @@ for (let key in salaries) {
 alert(sum);*/
 
 //ejercicio 6
-let menu = {
+/*let menu = {
   width: 200,
   height: 300,
   title: "My menu"
@@ -101,11 +101,11 @@ let menu = {
 
 function multiplyNumeric(obj) {
   for (let key in obj) {
-    if (typeof key !== String) {
+    if (typeof key == Number) {
       obj[key] *= 2;
     }
   }
 }
 
 multiplyNumeric(menu);
-console.log(menu);
+console.log(menu);*/
