@@ -99,7 +99,7 @@ ladder
 let suma = new Accumulator(1);
 suma.read();
 suma.read();
-alert(suma.value);*/
+alert(suma.value);
 
 //ejercicio 4
 /*class Clock {
