@@ -33,10 +33,10 @@
 // each element of array A is an integer within the range [1..1,000,000,000];
 // all but one of the values in A occur an even number of times.
 
-function solution(A) {
-  return A.reduce((x, y) => x ^ y);
-}
+// function solution(A) {
+//   return A.reduce((x, y) => x ^ y);
+// }
 
-let A = [9, 3, 9, 3, 9, 7, 9, 7, 6];
-console.log(A);
-console.log(solution(A));
+// let A = [9, 3, 9, 3, 9, 7, 9, 7, 6];
+// console.log(A);
+// console.log(solution(A));
