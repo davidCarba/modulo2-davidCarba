@@ -56,40 +56,39 @@
 // las pondrá en mayúsculas y la segunda función ordenarPalabras() que las ordenará alfabéticamente.
 // Si el array contiene datos que no son strings debería lanzar un error.
 
-// function pasarAMayus(arr) {
-//   return new Promise(function(resolve, reject) {
-//     let newArr = arr.map(function(arr) {
-//       for (let value of arr) {
-//         if (value != "number") {
-//           value = value.toUpperCase();
-//         }
-//       }
-//     });
-//     resolve(newArr);
-//     reject();
-//   });
-// }
+// let newArr = [];
 
-// function ordenarPalabras(arr) {
-//   return new Promise(function(resolve, reject) {
-//     for (let value of arr) {
-//       if (value != "number") {
-//         resolve((value = value.sort(compare)));
-//       } else {
-//         reject();
-//       }
+// function pasarAMayus(array) {
+// return new Promise(function(resolve, reject) {
+//   for (let value of array) {
+//     if (value != "number") {
+//       value = value.toUpperCase();
+//       newArr.push(value);
+//     } else {
+//       reject();
 //     }
-//   });
+//     resolve(newArr);
+//   }
+// });
 // }
 
-// let arr = ["repollo", "nabo", "rábano", "zanahoria"];
-// pasarAMayus(arr)
-//   .then(result => {
-//     ordenarPalbaras(arr)
-//     .then(resulr => {
-//         alert(arr);
+// function ordenarPalabras(newArr) {
+// return new Promise(function(resolve, reject) {
+//   newArr[0] = "JUAN";
+//   resolve(newArr);
+// });
+// }
+
+// pasarAMayus(["pepito", "pablo"])
+// .then(result => {
+//   ordenarPalabras(result)
+//     .then(result => {
+//       alert(result);
 //     })
-//   })
-//   .catch(err => {
-//     alert("cagada");
-//   });
+//     .catch(err => {
+//       console.log("Error");
+//     });
+// })
+// .catch(err => {
+//   console.log("Error");
+// });
